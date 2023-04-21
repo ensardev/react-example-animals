@@ -1,6 +1,6 @@
-function AnimalShow(){
+function AnimalShow({type}){
     return(
-        <div>Dog</div>
+        <div>{type}</div>
     )
 }
 
